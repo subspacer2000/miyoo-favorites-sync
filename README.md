@@ -22,23 +22,23 @@ Set up Syncthing to share the favourite.json file between your Miyoo and Batocer
 Automate Script Execution:
 To ensure the watch_favourite.sh script runs automatically after each boot:
 
-Step 4.1: Enable Writing to Boot Partition:
+Enable Writing to Boot Partition:
 mount -o remount,rw /boot
 
-Step 4.2: Edit the postshare.sh File:
+Edit the postshare.sh File:
 nano /boot/postshare.sh
 
 Add the following lines to postshare.sh:
 #!/bin/bash
 /userdata/miyoo-favorites/watch_favourite.sh &
 
-Step 4.3: Make the Script Executable:
+Make the Script Executable:
 chmod +x /boot/postshare.sh
 
-Step 4.4: Secure the Boot Partition:
+Secure the Boot Partition:
 mount -o remount,ro /boot
 
-Step 4.5: Reboot the System:
+Reboot the System:
 reboot
 
 SSH Commands for Monitoring and Manual Execution:

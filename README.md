@@ -56,7 +56,7 @@ Translation Table: Update the translation table in update_favorite.py for more s
 Here's a snippet for reference:
 makefile
 Copy code
-# Translation table from Miyoo handheld to Batocera
+# Translation table from Miyoo mini plus directories to Batocera directories
 directory_map = {
 
     "ARCADE": "fbneo",

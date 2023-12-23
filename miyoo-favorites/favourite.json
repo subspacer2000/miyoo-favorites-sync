@@ -1,0 +1,9 @@
+{"label":"Skiing (USA)","launch":"/mnt/SDCARD/Emu/ATARI/launch.sh","type":5,"imgpath":"/mnt/SDCARD/Emu/ATARI/../../Roms/ATARI/Imgs/Skiing (USA).png","rompath":"/mnt/SDCARD/Emu/ATARI/../../Roms/ATARI/Skiing (USA).7z"}
+{"label":"ESPN Extreme Games (USA)","launch":"/mnt/SDCARD/Emu/PSX/launch.sh","type":5,"imgpath":"/mnt/SDCARD/Emu/PSX/../../Roms/PS/Imgs/ESPN Extreme Games (USA).png","rompath":"/mnt/SDCARD/Emu/PSX/../../Roms/PS/ESPN Extreme Games (USA).cue"}
+{"label":"Twisted Metal 2 (USA)","launch":"/mnt/SDCARD/Emu/PSX/launch.sh","type":5,"imgpath":"/mnt/SDCARD/Emu/PSX/../../Roms/PS/Imgs/Twisted Metal 2 (USA).png","rompath":"/mnt/SDCARD/Emu/PSX/../../Roms/PS/Twisted Metal 2 (USA).cue"}
+{"label":"Jurassic Park (USA)","launch":"/mnt/SDCARD/Emu/MD/launch.sh","type":5,"imgpath":"/mnt/SDCARD/Emu/MD/../../Roms/MD/Imgs/Jurassic Park (USA).png","rompath":"/mnt/SDCARD/Emu/MD/../../Roms/MD/Jurassic Park (USA).md"}
+{"label":"Tetris","launch":"/mnt/SDCARD/Emu/GB/launch.sh","type":5,"imgpath":"/mnt/SDCARD/Emu/GB/../../Roms/GB/Imgs/Tetris.png","rompath":"/mnt/SDCARD/Emu/GB/../../Roms/GB/Tetris.gb"}
+{"label":"Neo Drift Out - New Technology","launch":"/mnt/SDCARD/Emu/ARCADE/launch.sh","type":5,"imgpath":"/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE/Imgs/neodrift.png","rompath":"/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE/neodrift.zip"}
+{"label":"Galaga (Namco rev. B)","launch":"/mnt/SDCARD/Emu/ARCADE/launch.sh","type":5,"imgpath":"/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE/Imgs/galaga.png","rompath":"/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE/galaga.zip"}
+{"label":"Mario Bros. (US, Revision G)","launch":"/mnt/SDCARD/Emu/ARCADE/launch.sh","type":5,"imgpath":"/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE/Imgs/mario.png","rompath":"/mnt/SDCARD/Emu/ARCADE/../../Roms/ARCADE/mario.zip"}
+{"label":"Back to the Future (USA)","launch":"/mnt/SDCARD/Emu/FC/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/FC/../../Roms/FC/Back to the Future (USA).nes"}

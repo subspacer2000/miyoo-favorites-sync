@@ -58,7 +58,6 @@ makefile
 Copy code
 # Translation table from Miyoo handheld to Batocera
 directory_map = {
-"INTELLIVISION": "intellivision",
 
     "ARCADE": "fbneo",
     
@@ -77,6 +76,8 @@ directory_map = {
     "GBC": "gbc",
     
     "GG": "gamegear",
+
+    "INTELLIVISION": "intellivision",
     
     "JAGUAR": "jaguar",
     

@@ -12,8 +12,11 @@ Move the “miyoo-favorites” directory and its contents inside Batocera’s /u
 
 Set File Permissions:
 Set executable permissions for each of the 3 files in the miyoo-favorites directory. In the SSH terminal, execute:
+
 chmod +x /userdata/miyoo-favorites/*.sh
+
 chmod +x /userdata/miyoo-favorites/*.py
+
 This command makes the scripts executable, which is necessary for them to run.
 
 Syncthing Setup:
@@ -23,30 +26,40 @@ Automate Script Execution:
 To ensure the watch_favourite.sh script runs automatically after each boot:
 
 Enable Writing to Boot Partition:
+
 mount -o remount,rw /boot
 
 Edit the postshare.sh File:
+
 nano /boot/postshare.sh
 
 Add the following lines to postshare.sh:
+
 #!/bin/bash
 /userdata/miyoo-favorites/watch_favourite.sh &
 
 Make the Script Executable:
+
 chmod +x /boot/postshare.sh
 
 Secure the Boot Partition:
+
 mount -o remount,ro /boot
 
 Reboot the System:
+
 reboot
 
 SSH Commands for Monitoring and Manual Execution:
 
-To check the status of watch_favourite.sh instances: ps aux | grep watch_favourite.sh
-To run the script that watches for changes/auto-detect: ./watch_favourite.sh
-To manually run the script that updates/not auto-detect: /usr/bin/python3 /userdata/miyoo-favorites/update_favorite.py
-To add a “test modification” line to favourite.json: echo "test modification" >> /userdata/miyoo-favorites/favourite.json
+To check the status of watch_favourite.sh instances: 
+ps aux | grep watch_favourite.sh
+To run the script that watches for changes/auto-detect: 
+./watch_favourite.sh
+To manually run the script that updates/not auto-detect: 
+/usr/bin/python3 /userdata/miyoo-favorites/update_favorite.py
+To add a “test modification” line to favourite.json: 
+echo "test modification" >> /userdata/miyoo-favorites/favourite.json
 Important Notes:
 
 Safety First: Be cautious when using nano or other editors to modify system files. A small mistake can lead to system issues. Always back up your configuration and important files before making significant changes.
@@ -131,3 +144,5 @@ directory_map = {
 Post-Execution Check: After rebooting, check the status of watch_favourite.sh to ensure it's running as expected. If it's not, review the steps and check Batocera logs for potential issues.
 By following these instructions, you should be able to set up your Batocera system to automatically sync and update favorites from your Miyoo handheld to Batocera. 
 
+Tested on Batocera v38 2023/10/14 21:43
+Miyoo mini plus OnionOS 4.2.3 beta (202306282128)

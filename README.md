@@ -59,10 +59,15 @@ Copy code
 # Translation table from Miyoo handheld to Batocera
 directory_map = {
 "INTELLIVISION": "intellivision",
+
     "ARCADE": "fbneo",
+    
     "ATARI": "atari2600",
+    
     "COLECO": "colecovision",
+    
     "FAIRCHILD": "fairchild",  # Update if there's a specific name in Batocera
+    
     "FC": "nes",
     "GB": "gb",
     "GBA": "gba",

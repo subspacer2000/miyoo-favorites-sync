@@ -69,33 +69,61 @@ directory_map = {
     "FAIRCHILD": "fairchild",  # Update if there's a specific name in Batocera
     
     "FC": "nes",
+    
     "GB": "gb",
+    
     "GBA": "gba",
+    
     "GBC": "gbc",
+    
     "GG": "gamegear",
+    
     "JAGUAR": "jaguar",
+    
     "LYNX": "lynx",
+    
     "MD": "megadrive",
+    
     "MEGADUCK": "megaduck",  # Update if there's a specific name in Batocera
+    
     "MS": "mastersystem",
+    
     "MSX": "msx",
+    
     "NEOGEO": "neogeo",
+    
     "NGP": "ngp",
+    
     "ODYSSEY": "o2em",
+    
     "PANASONIC": "3do",
+    
     "PCE": "pcengine",
+    
     "PCECD": "pcenginecd",
+    
     "POKE": "pokemini",
+    
     "PS": "psx",
+    
     "SEGACD": "segacd",
+    
     "SEGASGONE": "segasgone",  # Update if there's a specific name in Batocera
+    
     "SEVENTYEIGHTHUNDRED": "atari7800",
+    
     "SFC": "snes",
+    
     "SUFAMI": "sufami",
+    
     "SUPERVISION": "supervision",
+    
     "THIRTYTWOX": "sega32x",
+    
     "VB": "virtualboy",
+    
     "WS": "wswan",
+    
     # Add other mappings as needed
 }
 
